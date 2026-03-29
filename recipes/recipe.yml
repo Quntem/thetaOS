@@ -41,5 +41,11 @@ modules:
           - org.mozilla.firefox
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
-
+  - type: os-release
+    properties:
+      ID: thetaOS
+      NAME: thetaOS
+      PRETTY_NAME: thetaOS 2.0.0
+      VERSION_ID: "2.0.0"
+      ID_LIKE: fedora
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
