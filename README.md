@@ -1,4 +1,4 @@
-# thetaOS &nbsp; [![bluebuild build badge](https://github.com/oscarmayreal/thetaos/actions/workflows/build.yml/badge.svg)](https://github.com/oscarmayreal/thetaos/actions/workflows/build.yml)
+# thetaOS &nbsp; [![bluebuild build badge](https://github.com/quntem/thetaos/actions/workflows/build.yml/badge.svg)](https://github.com/oscarmayreal/thetaos/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
@@ -13,7 +13,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/oscarmayreal/thetaos:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/quntem/thetaos:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -21,7 +21,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/oscarmayreal/thetaos:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/quntem/thetaos:latest
   ```
 - Reboot again to complete the installation
   ```
