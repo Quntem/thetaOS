@@ -4,6 +4,6 @@ Name=Grid Portal
 Comment=Launch the Grid Portal client
 Exec=/usr/libexec/grid-client/grid-portal
 Terminal=false
-Icon=system-run
+Icon=grid-portal
 Categories=GNOME;System;Utility;
 StartupNotify=true
