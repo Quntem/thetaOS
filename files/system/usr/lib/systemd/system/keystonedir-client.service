@@ -1,0 +1,14 @@
+[Unit]
+Description=Keystone Directory Client Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+EnvironmentFile=-/etc/grid-client/grid-client.env
+ExecStartPre=/usr/bin/mkdir -p /etc/keystonedir /etc/grid /var/lib/grid-client
+ExecStart=/usr/libexec/grid-client/keystonedir-service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
