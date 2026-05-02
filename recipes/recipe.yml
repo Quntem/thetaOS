@@ -29,6 +29,7 @@ modules:
     install:
       packages:
         - micro
+        - labwc
         - starship
         - nodejs
         - plymouth-plugin-two-step

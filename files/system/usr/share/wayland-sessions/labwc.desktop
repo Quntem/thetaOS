@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Labwc
+Comment=Launch a Labwc Wayland session
+Exec=labwc
+Type=Application
+DesktopNames=labwc
