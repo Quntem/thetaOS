@@ -42,6 +42,7 @@ modules:
 
   - type: script
     scripts:
+      - install-branding-assets.sh
       - set-plymouth-theme.sh
       - update-desktop-assets.sh
 
