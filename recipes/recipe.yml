@@ -29,6 +29,8 @@ modules:
     install:
       packages:
         - micro
+        - fuse
+        - fuse-libs
         - labwc
         - starship
         - nodejs
